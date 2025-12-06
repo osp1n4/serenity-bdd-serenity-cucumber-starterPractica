@@ -1,4 +1,4 @@
-package starter.stepdefinitions;
+package com.banco.stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -7,11 +7,10 @@ import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.questions.page.TheWebPage;
-import starter.navigation.NavigateTo;
-import starter.search.LookForInformation;
+import com.banco.tasks.NavigateTo;
+import com.banco.tasks.LookForInformation;
 
 import java.awt.*;
-import java.io.File;
 import java.io.IOException;
 
 public class SearchStepDefinitions {

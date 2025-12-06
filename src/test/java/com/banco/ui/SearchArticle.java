@@ -1,4 +1,4 @@
-package starter.search;
+package com.banco.ui;
 
 import net.serenitybdd.screenplay.targets.Target;
 

@@ -1,8 +1,9 @@
-package starter.navigation;
+package com.banco.tasks;
 
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
+import com.banco.ui.DuckDuckGoHomePage;
 
 public class NavigateTo {
     public static Performable theSearchHomePage() {
